@@ -1,12 +1,10 @@
-# === Spring Boot Backend ===
+HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-**/application.properties
-**/application.yml
 
-# STS
+### STS ###
 .apt_generated
 .classpath
 .factorypath
@@ -15,13 +13,18 @@ target/
 .springBeans
 .sts4-cache
 
-# IntelliJ IDEA
+# Spring Boot config
+**/application.properties
+**/application.yml
+
+
+### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
 
-# NetBeans
+### NetBeans ###
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -31,18 +34,5 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-# VS Code
+### VS Code ###
 .vscode/
-
-# === React Frontend ===
-url-shorten-app-frontend/node_modules/
-url-shorten-app-frontend/build/
-url-shorten-app-frontend/coverage/
-url-shorten-app-frontend/.env.local
-url-shorten-app-frontend/.env.development.local
-url-shorten-app-frontend/.env.test.local
-url-shorten-app-frontend/.env.production.local
-url-shorten-app-frontend/npm-debug.log*
-url-shorten-app-frontend/yarn-debug.log*
-url-shorten-app-frontend/yarn-error.log*
-.DS_Store

@@ -1,0 +1,55 @@
+# === Spring Boot Backend ===
+target/
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+HELP.md
+**/application.properties
+**/application.yml
+
+# STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# VS Code
+.vscode/
+
+# === React Frontend ===
+url-shorten-app-frontend/node_modules/
+url-shorten-app-frontend/.pnp/
+url-shorten-app-frontend/.pnp.js
+url-shorten-app-frontend/build/
+url-shorten-app-frontend/coverage/
+url-shorten-app-frontend/.env
+url-shorten-app-frontend/.env.local
+url-shorten-app-frontend/.env.development.local
+url-shorten-app-frontend/.env.test.local
+url-shorten-app-frontend/.env.production.local
+url-shorten-app-frontend/npm-debug.log*
+url-shorten-app-frontend/yarn-debug.log*
+url-shorten-app-frontend/yarn-error.log*
+
+# === OS Files ===
+.DS_Store
+Thumbs.db

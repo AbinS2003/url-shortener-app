@@ -22,3 +22,12 @@ URL_Shortener_App/
 ├── url-shorten-app-frontend/
 └── url-shortening-app-backend/
 ```
+
+## 📸 Screenshots
+
+### 🏠 Homepage
+![Homepage](screenshots/home.png)
+
+### 🔐 Login
+![Login](screenshots/login.png)
+
